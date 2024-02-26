@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #8c53ce, black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+    .word {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10rem;
+        color: #fff;
+        cursor: none;
+        user-select: none;
+    }
+}
+
+.illumination {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x) var(--y), transparent -50%, #000 15%);
+}
