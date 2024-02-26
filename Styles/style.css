@@ -154,3 +154,36 @@ body {
 .project button:hover {
     background-color: #333;
 }
+
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar .logo {
+        margin-bottom: 20px;
+    }
+
+    .navbar ul {
+        gap: 20px;
+    }
+
+    .navbar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        padding: 20px;
+    }
+}
