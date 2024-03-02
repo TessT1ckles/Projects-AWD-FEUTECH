@@ -186,4 +186,10 @@ body {
     .project {
         padding: 20px;
     }
+    .popup {
+        padding: 20px;
+    }
+    .popup-icon {
+        font-size: 25px;
+    }
 }
